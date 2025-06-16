@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projet Intégratif - Rémi Le Goff</title>
+    <link rel="stylesheet" href="../style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <script src="../page.js"></script>
+</head>
+
+<body>
+    <!-- Fond étoilé -->
+    <div class="stars" id="stars"></div>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <div class="logo">
+                <i class="fas fa-rocket"></i>
+                Portfolio
+            </div>
+            <ul class="nav-menu">
+                <li><a href="../index.html" class="nav-link">Présentation</a></li>
+                <li><a href="../Compétence.html" class="nav-link">Compétences</a></li>
+                <li><a href="../projects_page.html" class="nav-link">Projets</a></li>
+                <li><a href="../a_propos.html" class="nav-link">Projection</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Section Projet -->
+    <section class="projects-hero" style="padding-bottom: 0;">
+        <div class="about-content">
+            <div class="astronaut-card">
+                <div class="about-header">
+                    <h1 class="about-title">
+                        <i class="fas fa-star"></i> Traitement des données
+                    </h1>
+                    <p class="hero-subtitle">
+                        La SAÉ 15 "Traitement des données" consistait à développer un script
+                        Python exploitant l'API Pokémon
+                        (<a href="https://pokeapi.co/docs/v2"
+                            style="color: inherit; text-decoration: underline;">PokeAPI</a>)
+                        pour collecter et analyser des données sur l'univers Pokémon. Le projet s'articulait autour
+                        de quatre étapes : la récolte automatisée de données via des requêtes HTTP, la structuration
+                        de ces informations selon mes besoins, l'application de traitements statistiques pour
+                        extraire des tendances intéressantes, et l'export des résultats sous forme de fichiers
+                        Markdown puis HTML. Ce projet m'a permis de maîtriser les concepts fondamentaux du
+                        traitement de données en Python, depuis la consommation d'APIs REST jusqu'à la génération
+                        de rapports structurés.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Windows -->
+    <section class="preview-section" style="padding-top: 2rem;">
+        <div class="container">
+            <h2 class="section-title">
+                <i class="fas fa-file-pdf"></i> Partie Windows
+            </h2>
+            <div class="projects-grid" style="margin: 2rem 0;">
+                <div class="project-card">
+                    <div class="project-content">
+                        <ul style="list-style: none; padding: 0;">
+                            <li>
+                                j'ai suivi des cours en ligne sur Windows et réalisé un TP
+                                sur Active Directory. J'y ai appris à créer des utilisateurs,
+                                gérer des groupes et appliquer des stratégies de sécurité dans
+                                un domaine Windows Server. Les machines virtuelles créer pour ce projet
+                                ont été configurées sur proxmox.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- Affichage PDF intégré (optionnel) -->
+            <div class="project-card" style="margin: 0 auto; max-width: 800px;">
+                <div class="project-content">
+                    <iframe src="../pdf/SAE21_Integration_domaine_ADDS_V1_4.pdf" width="100%" height="500px"
+                        style="border:1px solid #6366f1; border-radius: 10px; background: #1e3a8a;"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Netacad -->
+    <section class="preview-section" style="padding-top: 2rem;">
+        <div class="container">
+            <h2 class="section-title">
+                <i class="fas fa-file-pdf"></i> Partie Netacad
+            </h2>
+            <div class="projects-grid" style="margin: 2rem 0;">
+                <div class="project-card">
+                    <div class="project-content">
+                        <ul style="list-style: none; padding: 0;">
+                            <li>
+                                J'ai suivi le module CCNA 2 sur Cisco NetAcad. Ce module m'a
+                                permis d'approfondir la configuration des routeurs et des
+                                switches, ainsi que la gestion des protocoles de routage dynamique,
+                                notamment grâce à des exercices pratiques sur Cisco packet tracer.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="projects-grid" style="margin: 2rem 0;">
+                <div class="project-card">
+                    <div class="project-content">
+                        <ul style="list-style: none; padding: 0;">
+                            <li>
+                                <a href="https://ccnareponses.com/ccna-2-examen-final-de-cours-srwe-v7-0-questions-reponses/"
+                                    style="color: #fff;">
+                                    https://ccnareponses.com/ccna-2-examen-final-de-cours-srwe-v7-0-questions-reponses/
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>
+                <i class="fas fa-rocket"></i>
+                © 2024 Rémi Le Goff - Portfolio BUT Réseaux et Télécommunications
+                <i class="fas fa-satellite"></i>
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>
