@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projet Intégratif - Rémi Le Goff</title>
+    <link rel="stylesheet" href="../style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <script src="../page.js"></script>
+</head>
+
+<body>
+    <!-- Fond étoilé -->
+    <div class="stars" id="stars"></div>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <div class="logo">
+                <i class="fas fa-rocket"></i>
+                Portfolio
+            </div>
+            <ul class="nav-menu">
+                <li><a href="../index.html" class="nav-link">Présentation</a></li>
+                <li><a href="../Compétence.html" class="nav-link">Compétences</a></li>
+                <li><a href="../projects_page.html" class="nav-link">Projets</a></li>
+                <li><a href="../a_propos.html" class="nav-link">Projection</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Section Projet -->
+    <section class="projects-hero" style="padding-bottom: 0;">
+        <div class="about-content">
+            <div class="astronaut-card">
+                <div class="about-header">
+                    <h1 class="about-title">
+                        <i class="fas fa-star"></i> Mesurer et caractériser un signal ou un système
+                    </h1>
+                    <p class="hero-subtitle">
+                        Dans le cadre de la SAE 22, les étudiants devaient analyser le spectre
+                        radioélectrique de la téléphonie mobile (2G, 3G, 4G) sur le campus 3
+                        de l'IUT de Caen, en utilisant un récepteur RTL-SDR et MATLAB. Le
+                        travail consistait à identifier un émetteur mobile (selon un
+                        opérateur attribué), à relever les fréquences correspondantes
+                        en se basant sur le site Cartoradio.fr, puis à capturer et
+                        interpréter les signaux mesurés. Cela impliquait de configurer
+                        les outils, de corriger un script MATLAB, de calculer la puissance
+                        du signal, d'analyser l'OBW (occupancy bandwidth), et de produire une
+                        cartographie précise du spectre capté. Les résultats étaient synthétisés
+                        dans une fiche A3 avec des captures commentées.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section binôme -->
+    <section class="preview-section" style="padding-top: 2rem;">
+        <div class="container">
+            <h2 class="section-title">
+                <i class="fas fa-file-pdf"></i> Chasse au spectre de la téléphonie mobile.
+            </h2>
+            <div class="projects-grid" style="margin: 2rem 0;">
+                <div class="project-card">
+                    <div class="project-content">
+                        <ul style="list-style: none; padding: 0;">
+                            <li>
+                                Dans ce projet, j'ai réalisé notamment la configuration et
+                                l'exécution du script MATLAB, l'analyse des spectres générés
+                                (en dBm et en Watts), ainsi que l'identification des stations
+                                FM à partir des pics de fréquence. J'ai également contribué à
+                                la correction du calcul de la puissance en dBm.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- Affichage PDF intégré (optionnel) -->
+            <div class="project-card" style="margin: 0 auto; max-width: 800px;">
+                <div class="project-content">
+                    <iframe src="../pdf/SAE 22 final.pdf" width="100%" height="500px"
+                        style="border:1px solid #6366f1; border-radius: 10px; background: #1e3a8a;"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section groupe -->
+    <section class="preview-section" style="padding-top: 2rem;">
+        <div class="container">
+            <h2 class="section-title">
+                <i class="fas fa-file-pdf"></i> Chasse au spectre de la téléphonie mobile sur le campus 3, cartographie
+                Caen Sud.
+            </h2>
+            <div class="projects-grid" style="margin: 2rem 0;">
+                <div class="project-card">
+                    <div class="project-content">
+                        <ul style="list-style: none; padding: 0;">
+                            <li>
+                                J'ai participé à la détection et à l'analyse du spectre d'un
+                                signal mobile autour de 900 MHz. J'ai contribué aux mesures
+                                de puissance et au calcul de l'OBW à l'aide de Matlab,
+                                notamment pour identifier la fréquence utilisée par notre
+                                opérateur. J'ai réalisé environ la moitié du travail en binôme.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- Affichage PDF intégré (optionnel) -->
+            <div class="project-card" style="margin: 0 auto; max-width: 800px;">
+                <div class="project-content">
+                    <iframe src="../pdf/Rémi-Romain-28-05-2025.pdf" width="100%" height="500px"
+                        style="border:1px solid #6366f1; border-radius: 10px; background: #1e3a8a;"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>
+                <i class="fas fa-rocket"></i>
+                © 2024 Rémi Le Goff - Portfolio BUT Réseaux et Télécommunications
+                <i class="fas fa-satellite"></i>
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>
