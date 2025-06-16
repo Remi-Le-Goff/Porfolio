@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S'initier aux réseaux informatiques - Rémi Le Goff</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <script src="page.js"></script>
+</head>
+
+<body>
+    <!-- Fond étoilé -->
+    <div class="stars" id="stars"></div>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <div class="logo">
+                <i class="fas fa-rocket"></i>
+                Portfolio
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Présentation</a></li>
+                <li><a href="Compétence.html" class="nav-link">Compétences</a></li>
+                <li><a href="projects_page.html" class="nav-link">Projets</a></li>
+                <li><a href="Projection.html" class="nav-link">Projection</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Section Projet Intégratif -->
+    <section class="projects-hero" style="padding-bottom: 0;">
+        <div class="about-content">
+            <div class="astronaut-card">
+                <div class="about-header">
+                    <h1 class="about-title">
+                        <i class="fas fa-star"></i>S'initier aux réseaux informatiques
+                    </h1>
+                    <p class="hero-subtitle">
+                        La SAÉ 12 "S'initier aux réseaux informatiques" consistait à
+                        concevoir un prototype de réseau pour la société imaginaire Fibre&Company
+                        en configurant des équipements Cisco (commutateurs et routeur)
+                        avec VLANs, routage inter-VLANs et agrégation de liens. Il fallait
+                        déployer une machine virtuelle Debian hébergeant plusieurs services
+                        (DNS, SMB, web, TFTP), implémenter des mesures de sécurité réseau
+                        et effectuer des tests de performance. Ce projet m'a permis de
+                        maîtriser les fondamentaux de l'administration réseau et système,
+                        depuis la planification d'adressage jusqu'à la sécurisation des
+                        infrastructures.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section réseau -->
+    <section class="preview-section" style="padding-top: 2rem;">
+        <div class="container">
+            <h2 class="section-title">
+                <i class="fas fa-file-pdf"></i> Infrastructure réseau
+            </h2>
+            <div class="projects-grid" style="margin: 2rem 0;">
+                <div class="project-card">
+                    <div class="project-content">
+                        <ul style="list-style: none; padding: 0;">
+                            <li>
+                                Dans la partie réseau, nous avons travaillé en groupe de quatre.
+                                En tant que chef de projet de mon équipe, j'ai été chargé
+                                d'élaborer le diagramme de Gantt avec GanttProject,de réaliser un trello, de
+                                répartir les tâches entre les membres, ainsi que de définir
+                                un planning prévisionnel. Sur le plan technique, je me suis
+                                occupé de la configuration du routeur et des j'ai participer a la configuration
+                                des switch.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- Affichage PDF intégré (optionnel) -->
+            <div class="project-card" style="margin: 0 auto; max-width: 800px;">
+                <div class="project-content">
+                    <iframe src="pdf/Gantt-Rémi-Bastian-Romain-SAE12.pdf" width="100%" height="500px"
+                        style="border:1px solid #6366f1; border-radius: 10px; background: #1e3a8a;"></iframe>
+                </div>
+                <div class="project-content">
+                    <iframe src="pdf/trello.pdf" width="100%" height="500px"
+                        style="border:1px solid #6366f1; border-radius: 10px; background: #1e3a8a;"></iframe>
+                </div>
+                <div class="project-content">
+                    <iframe src="pdf/SAE12-shema_logique-planIP_G1_TP1.2.pdf" width="100%" height="500px"
+                        style="border:1px solid #6366f1; border-radius: 10px; background: #1e3a8a;"></iframe>
+                </div>
+                <div class="project-content">
+                    <iframe src="pdf/SAE12-shema-physique_G1_TP1.2.pdf" width="100%" height="500px"
+                        style="border:1px solid #6366f1; border-radius: 10px; background: #1e3a8a;"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>
+                <i class="fas fa-rocket"></i>
+                © 2024 Rémi Le Goff - Portfolio BUT Réseaux et Télécommunications
+                <i class="fas fa-satellite"></i>
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>
